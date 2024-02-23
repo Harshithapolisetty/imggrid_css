@@ -1,0 +1,62 @@
+
+#body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+    background-image: url("https://harshithapolisetty.github.io/bimg/br.jpeg");
+}
+
+#box1{
+    display: grid;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,127,187,1) 27%, rgba(255,0,169,1) 100%); 
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap:20px 10px;
+    text-align: center;
+}
+#box2{
+    display: grid;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,127,187,1) 27%, rgba(255,0,169,1) 100%); 
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap:20px 10px;
+    text-align: center;
+}
+    #box3{
+        display: grid;
+         background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,127,187,1) 27%, rgba(255,0,169,1) 100%); 
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        gap:20px 10px;
+        text-align: center;
+}
+#box1>div
+{
+    padding:10px;
+}
+
+img{
+    width:100%;
+    height:100%;
+
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:4;
+}
+#item2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end:1;
+}
+#item3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end:1;
+}
